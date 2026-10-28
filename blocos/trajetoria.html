@@ -1,0 +1,41 @@
+<section class="blk-traj" id="trajetoria">
+  <div class="wrap blk-traj__in">
+    <figure class="blk-traj__foto" data-reveal>
+      <!--foto:midia/gean-tatame.jpg|Gean Brener de jaleco à beira do tatame, durante uma competição-->
+      <figcaption>Gean Brener à beira do tatame, no atendimento de uma competição.</figcaption>
+    </figure>
+    <div class="blk-traj__txt">
+      <p class="blk-traj__eyebrow" data-reveal>Do campo à clínica</p>
+      <h2 class="blk-traj__titulo" data-reveal>Quem cuida do seu joelho também está na beira da quadra</h2>
+      <p class="blk-traj__lead" data-acende>O Gean atende atleta em competição, forma fisioterapeutas na universidade e traz para a clínica o que aprende nos dois lugares.</p>
+      <ol class="blk-traj__linha">
+        <li data-reveal style="--d:0ms"><span>2016</span><p>Forma-se em Fisioterapia pela PUC Goiás. Na graduação, fundou a Liga de Fisioterapia Preventiva e presidiu a Liga de Fisioterapia Desportiva.</p></li>
+        <li data-reveal style="--d:80ms"><span>2017</span><p>Funda a Golden Fisio com colegas fisioterapeutas, para atender ortopedia e esporte em Goiânia.</p></li>
+        <li data-reveal style="--d:160ms"><span>Esporte</span><p>Especialização em Fisioterapia Esportiva e pós-graduação em saúde e performance no futebol de alto rendimento pela CBF Academy.</p></li>
+        <li data-reveal style="--d:240ms"><span>Mestrado</span><p>Mestre em Atenção à Saúde pela PUC Goiás.</p></li>
+        <li data-reveal style="--d:320ms"><span>Hoje</span><p>Professor na PUC Goiás e na Uniceug, coordenador da fisioterapia na Caminhada Ecológica e à frente da clínica no Setor Bueno.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-traj{padding-block:var(--sp-section);background:var(--bg)}
+.blk-traj__in{display:grid;gap:var(--sp-5)}
+.blk-traj__foto{margin:0}
+.blk-traj__foto img{display:block;width:100%;max-width:26rem;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-lg)}
+.blk-traj__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-sm);color:var(--ink-dim)}
+.blk-traj__eyebrow{margin:0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-traj__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-traj__lead{margin:var(--sp-3) 0 0;max-width:38rem;font-size:1.12rem;line-height:1.65;color:var(--ink)}
+.blk-traj__linha{list-style:none;margin:var(--sp-5) 0 0;padding:0 0 0 var(--sp-4);border-left:2px solid color-mix(in srgb,var(--brand) 30%,transparent);display:grid;gap:var(--sp-4)}
+.blk-traj__linha li{position:relative}
+.blk-traj__linha li::before{content:"";position:absolute;left:calc(-1 * var(--sp-4) - 7px);top:.35em;width:12px;height:12px;border-radius:50%;background:var(--pulse);box-shadow:0 0 0 4px var(--bg)}
+.blk-traj__linha span{font-family:var(--f-display);font-size:1.45rem;font-weight:600;line-height:1;color:var(--brand)}
+.blk-traj__linha p{margin:var(--sp-1,.4rem) 0 0;line-height:1.6;color:var(--ink-soft)}
+@media (min-width:64rem){
+  .blk-traj__in{grid-template-columns:5fr 7fr;gap:var(--sp-6,6rem);align-items:start}
+  .blk-traj__foto{position:sticky;top:7rem}
+  .blk-traj__foto img{max-width:none}
+}
+</style>

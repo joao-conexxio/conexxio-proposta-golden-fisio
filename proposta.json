@@ -1,0 +1,268 @@
+{
+  "slug": "golden-fisio",
+  "negocio": {
+    "nome": "Golden Fisio",
+    "logo": "brand/logo.png",
+    "whatsapp": "5562993465246",
+    "unidades": [
+      {
+        "bairro": "Setor Bueno · Goiânia",
+        "endereco": "Av. T-2, nº 2022, qd. 27, lt. 22 – Setor Bueno, Goiânia – GO, 74215-010",
+        "telefone": "(62) 99346-5246",
+        "horario": "A partir das 8h, com atendimento até a noite"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#0B6B3E",
+    "brand2": "#08502E",
+    "ink": "#14201A",
+    "bg": "#FBFAF6",
+    "pulse": "#D9A92E",
+    "radius": "6px",
+    "registro": "clinico",
+    "fontDisplay": "Barlow Condensed",
+    "fontBody": "Barlow",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Joelho e LCA",
+            "href": "#joelho"
+          },
+          {
+            "texto": "Trajetória",
+            "href": "#trajetoria"
+          },
+          {
+            "texto": "Onde estamos",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Setor Bueno, Goiânia",
+        "h1": "De volta ao jogo depois da lesão",
+        "lead": "Fisioterapia ortopédica e esportiva, com atenção especial à reabilitação de joelho. Para quem operou, para quem se machucou treinando e para quem quer parar de sentir dor.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Fale com a Golden Fisio",
+        "imagem": "midia/gean-jaleco.jpg",
+        "imagemAlt": "Gean Brener, fisioterapeuta, com o jaleco da Golden Fisio",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Ortopedia",
+          "Fisioterapia esportiva",
+          "Reabilitação de joelho",
+          "Pós-operatório",
+          "RPG",
+          "Liberação miofascial",
+          "Prevenção de lesões",
+          "Teleconsulta"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Desde 2017 no Setor Bueno",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "201",
+            "rotulo": "avaliações de pacientes",
+            "contar": 201
+          },
+          {
+            "valor": "2017",
+            "rotulo": "ano de fundação da clínica"
+          },
+          {
+            "valor": "+1.000",
+            "rotulo": "pacientes e atletas acompanhados pelo Gean"
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A Golden Fisio",
+        "citacao": "Ser fisioterapeuta é saber escutar e se colocar no lugar do outro.",
+        "autor": "Gean Brener, fisioterapeuta e sócio da Golden Fisio",
+        "texto": [
+          "A Golden Fisio nasceu em 2017, criada por fisioterapeutas que vinham do esporte e queriam um lugar para cuidar de ortopedia do jeito que se cuida de atleta: com avaliação de verdade, objetivo claro e acompanhamento até o fim.",
+          "O tratamento é montado para cada pessoa. Quem chega com dor nas costas, quem acabou de operar o joelho e quem quer voltar a correr não fazem a mesma sessão."
+        ],
+        "imagem": "midia/gean-clinica.jpg",
+        "imagemAlt": "Gean Brener na recepção da Golden Fisio, em frente ao brasão da clínica na parede"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que tratamos",
+        "lead": "Toda primeira consulta começa por uma avaliação: o que dói, desde quando, o que você quer voltar a fazer.",
+        "itens": [
+          {
+            "nome": "Fisioterapia ortopédica",
+            "descricao": "Dor e lesão em articulações, músculos e tendões: ombro, coluna, quadril, joelho, tornozelo. Tratamento para tirar a dor e devolver o movimento.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Fisioterapia esportiva",
+            "descricao": "Para quem treina, compete ou só joga no fim de semana. Entorse, distensão, tendinite e sobrecarga tratadas com foco em voltar à atividade.",
+            "icone": "batimento"
+          },
+          {
+            "nome": "Reabilitação de joelho e LCA",
+            "descricao": "Do pós-operatório da reconstrução do ligamento cruzado até a liberação para o esporte, com testes antes de cada avanço.",
+            "icone": "check"
+          },
+          {
+            "nome": "Reabilitação pós-cirúrgica",
+            "descricao": "Acompanhamento depois de cirurgias ortopédicas, em parceria com a orientação do seu cirurgião.",
+            "icone": "agenda"
+          },
+          {
+            "nome": "RPG · Reeducação Postural Global",
+            "descricao": "Método de alongamento global para corrigir a postura e aliviar dores que vêm dela.",
+            "icone": "coluna"
+          },
+          {
+            "nome": "Liberação miofascial",
+            "descricao": "Técnicas manuais para soltar a musculatura tensa e reduzir a dor, como parte do tratamento.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Prevenção de lesões",
+            "descricao": "Avaliação e treino de força e controle para quem quer evitar a próxima lesão, não só tratar a atual.",
+            "icone": "estrela"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/joelho.html"
+    },
+    {
+      "custom": "blocos/trajetoria.html"
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que dizem os pacientes",
+        "itens": [
+          {
+            "texto": "Foi na Golden Fisio que conseguiram reabilitar minha panturrilha. Voltei a correr com qualidade e seguindo as orientações que aprendi durante o tratamento.",
+            "autor": "Nirlene B.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Eu amo fazer fisioterapia nesse lugar! Fui por recomendação do meu ortopedista e estou muito feliz com o tratamento.",
+            "autor": "Marcie K.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Clínica ótima, com a aparelhagem necessária para a recuperação, e todos os profissionais extremamente atenciosos.",
+            "autor": "Fernando B.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Antes de agendar",
+        "itens": [
+          {
+            "p": "Preciso de pedido médico para começar?",
+            "r": "Não é obrigatório: o fisioterapeuta pode avaliar você diretamente. Se tiver pedido do ortopedista, laudo da cirurgia ou exames de imagem, traga na primeira consulta."
+          },
+          {
+            "p": "Vocês atendem plano de saúde?",
+            "r": "Chame no WhatsApp e diga qual é o seu plano. A equipe explica as opções para o seu caso."
+          },
+          {
+            "p": "Operei o joelho. Quando começo a fisioterapia?",
+            "r": "Em geral, logo nos primeiros dias depois da cirurgia, seguindo a orientação do seu cirurgião. Quanto antes o joelho volta a esticar e o quadríceps a responder, mais tranquilo fica o resto da reabilitação."
+          },
+          {
+            "p": "Quanto tempo dura uma reabilitação de LCA?",
+            "r": "Costuma levar meses, e o tempo varia de pessoa para pessoa. A liberação para o esporte depende dos testes de força e de salto, não só da data da cirurgia."
+          },
+          {
+            "p": "Tem atendimento à noite?",
+            "r": "Sim, a clínica atende até a noite nos dias de semana. Confirme o horário disponível pelo WhatsApp."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde estamos"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Vamos marcar sua avaliação?",
+        "lead": "Conte pelo WhatsApp o que está sentindo ou qual cirurgia fez. A gente responde com o próximo horário livre.",
+        "cta": "Chamar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Joelho e LCA",
+            "href": "#joelho"
+          },
+          {
+            "texto": "Onde estamos",
+            "href": "#unidades"
+          }
+        ]
+      }
+    }
+  ]
+}
